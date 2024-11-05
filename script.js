@@ -1,5 +1,5 @@
 const images = [
-    'assets/plants.png',
+    'assets/plants.jpg',
     'assets/medrawing.jpg',
     'assets/oceansaway.jpg'
 ];
@@ -11,6 +11,7 @@ rotatingImage.src = images[currentIndex];
 rotatingImage.style.transition = 'opacity 0.8s'; 
 rotatingImage.style.width = '90%';
 rotatingImage.style.height = 'auto';
+rotatingImage.style.objectFit = 'cover';
 
 function updateImage() {
     rotatingImage.style.opacity = 0; // Fade out
