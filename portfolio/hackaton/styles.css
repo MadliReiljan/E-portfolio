@@ -128,7 +128,7 @@
     font-weight: 400;
     line-height: 3rem;
     color: var(--text-dark);
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
   
@@ -169,8 +169,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Center text alignment */
-    min-height: 40vh; /* Adjust this as necessary */
+    text-align: center;
+    min-height: 40vh; 
     background-color: #f7eae1;
   }
 
@@ -192,7 +192,7 @@
   }
 
   .go-back {
-    display: none; /* Hide by default */
+    display: none;
   }
 
 @media (max-width: 1000px) {

@@ -141,6 +141,7 @@
     color: #494e57;
     place-items: center;
     font-size: 18px;
+    margin-bottom: 3rem;
   }
 
   .image {
@@ -181,7 +182,7 @@
   }
 
   .footer {
-    background-color: white;
+    background-color: #f7eae1;
     height: 5vh;
     display: flex;
     align-items: center;
